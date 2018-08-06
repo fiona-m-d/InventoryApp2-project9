@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">Inventory App</string>
+    <string name="action_insert_test_data">Insert Test Database Entry</string>
+    <string name="action_delete_all_db_entries">Delete All Items</string>
+    <string name="delete_all_toast">Not yet implemented</string>
+
+
+
+
+    <!-- If name null -->
+    <string name="null_name_entry">Product requires a name</string>
+
+    <!-- Label for overflow menu option that inserts fake data into the app -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all data in the app -->
+    <string name="action_delete_all_entries">Delete All Entries</string>
+
+    <!-- Title text for the empty view -->
+    <string name="empty_view_title_text">There\'s currently no items in the database!</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add an item  -->
+    <string name="empty_view_subtitle_text">Get started by adding inventory</string>
+
+    <!-- Title for the activity to add a new entry -->
+    <string name="editor_activity_title_new_entry">Enter details</string>
+
+    <!-- Title for the activity to edit an existing entry -->
+    <string name="editor_activity_title_edit_entry">Edit details</string>
+
+    <!-- Label for editor menu option to save entry and leave editor  -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current entry -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Toast message in editor when new entry has been successfully inserted  -->
+    <string name="editor_insert_item_successful">Entry saved!</string>
+
+    <!-- Toast message in editor when new entry has failed to be inserted -->
+    <string name="editor_insert_item_failed">Error with saving entry</string>
+
+    <!-- Toast message in editor when current entry was successfully updated  -->
+    <string name="editor_update_successful">Entry updated</string>
+
+    <!-- Toast message in editor when current entry has failed to be updated -->
+    <string name="editor_update_failed">Error with updating entry</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current entry -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Toast message in editor when current entry was successfully deleted  -->
+    <string name="editor_delete_successful">Entry deleted</string>
+
+    <!-- Toast message in editor when current entry has failed to be deleted  -->
+    <string name="editor_delete_failed">Error with deleting entry</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current entry [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this entry?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current entry -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current entry  -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Label for overview category of attributes in the editor -->
+    <string name="category_overview">Overview</string>
+
+    <!-- Text hint for name field in the editor -->
+    <string name="hint_name">Product Name</string>
+
+    <!-- Text hint for price field in the editor  -->
+    <string name="hint_price">Price</string>
+
+    <!-- Text hint for quantity field in the editor  -->
+    <string name="hint_quantity">Quantity</string>
+
+    <!-- Text hint for supplier field in the editor -->
+    <string name="hint_supplier">Supplier Name</string>
+
+    <!-- Text hint for supplier phone number field in the editor -->
+    <string name="hint_supplier_phone">Supplier Phone Number</string>
+
+    <!-- Text for Sell button -->
+    <string name="sell_button">SELL</string>
+
+    <!-- Increase quantity button -->
+    <string name="quantity_increase_button">+</string>
+
+    <!-- Decrease quantity button -->
+    <string name="quantity_decrease_button">-</string>
+
+    <!-- Toast to display when trying to decrease quantity/sell when quantity is already 0 -->
+    <string name="quantity_zero_message">Cannot reduce quantity further</string>
+
+    <!-- Text for call supplier button -->
+    <string name="call_supplier_button">Call Supplier To Order</string>
+
+    <!-- Text for Increase Quantity button -->
+    <string name="increase_button">Increase Quantity</string>
+
+    <!-- Text for Decrease Quantity button -->
+    <string name="decrease_button">Decrease Quantity</string>
+
+    <!-- Price label -->
+    <string name="price_label">Price: £</string>
+
+    <!-- Quantity label -->
+    <string name="quantity_label">Quantity:\u0020</string>
+
+    <!-- Phone no activity found -->
+    <string name="phone_no_activity">No activity found</string>
+
+    <!-- Phone label -->
+    <string name="phone_label">Tel: </string>
+
+</resources>

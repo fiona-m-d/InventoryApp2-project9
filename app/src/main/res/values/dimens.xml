@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="fab_margin">36dp</dimen>
+    <dimen name="quantity_button">48dp</dimen>
+    <dimen name="sell_button">104dp</dimen>
+    <dimen name="quantity_text_size">20sp</dimen>
+    <dimen name="sell_text_size">16sp</dimen>
+    <dimen name="sell_top_padding">8dp</dimen>
+    <dimen name="quantity_padding">8dp</dimen>
+    <dimen name="editor_button_gap">16dp</dimen>
+    <dimen name="editor_button_side_margin">8dp</dimen>
+    <dimen name="editor_button_bottom_margin">20dp</dimen>
+    <dimen name="editor_field_gap">20dp</dimen>
+    <dimen name="empty_subtext_top_margin">8dp</dimen>
+</resources>

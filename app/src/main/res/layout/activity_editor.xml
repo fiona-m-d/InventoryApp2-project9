@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_margin"
+    tools:context=".EditorActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Name field -->
+        <EditText
+            android:id="@+id/edit_name"
+            style="@style/EditorFieldStyle"
+            android:layout_marginBottom="@dimen/editor_field_gap"
+            android:hint="@string/hint_name"
+            android:inputType="textCapWords" />
+
+        <EditText
+            android:id="@+id/edit_price"
+            style="@style/EditorFieldStyle"
+            android:layout_marginBottom="@dimen/editor_field_gap"
+            android:hint="@string/hint_price"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/edit_quantity"
+            style="@style/EditorFieldStyle"
+            android:layout_marginBottom="@dimen/editor_field_gap"
+            android:hint="@string/hint_quantity"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/edit_supplier"
+            style="@style/EditorFieldStyle"
+            android:layout_marginBottom="@dimen/editor_field_gap"
+            android:hint="@string/hint_supplier"
+            android:inputType="textCapWords" />
+
+        <!-- Quantity field -->
+        <EditText
+            android:id="@+id/edit_phone"
+            style="@style/EditorFieldStyle"
+            android:layout_marginBottom="@dimen/editor_field_gap"
+            android:hint="@string/hint_supplier_phone"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/editor_button_bottom_margin"
+        android:layout_marginLeft="@dimen/editor_button_side_margin"
+        android:layout_marginRight="@dimen/editor_button_side_margin"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/increase_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/editor_button_gap"
+            android:background="@drawable/button_style"
+            android:text="@string/increase_button" />
+
+        <Button
+            android:id="@+id/decrease_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/editor_button_gap"
+            android:background="@drawable/button_style"
+            android:text="@string/decrease_button" />
+
+        <Button
+            android:id="@+id/call_supplier_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/editor_button_gap"
+            android:background="@color/textColour"
+            android:text="@string/call_supplier_button"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
